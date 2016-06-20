@@ -1,0 +1,15 @@
+Instructions de compilation: 
+1- Se placer dans le dossier 'src-obj'
+2- Taper 'make'
+3- Taper 'make maxclean' pour supprimer les objets.
+
+Lancement du jeu
+4- Revenir au répertoire principal (important)
+5- Lancer le jeu : ./hex_game
+
+hex_game doit être lancé depuis le répertoire principal, sinon une 
+erreur de segmentation est lancée car il ne trouve pas les fichiers
+requis.
+
+Démonstration de la détection du vainceur (save.txt)
+6- Cliquer sur "Charger", il reste un pion bleu pour finir la partie.
